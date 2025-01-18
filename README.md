@@ -1,9 +1,11 @@
 # E-Commerce Website
 
 ## About the Project
+
 This project is a comprehensive e-commerce platform designed to provide users with a seamless online shopping experience. The website includes features like user authentication, product browsing, shopping cart, and an admin panel for managing the store. The project was built with scalability and performance in mind, ensuring a fast and responsive user experience across all devices.
 
 ## Technologies
+
 The following technologies were used in the development of this project:
 
 - **Frontend**: HTML5, CSS3, JavaScript, Bootstrap v5.3, React.js
@@ -12,6 +14,7 @@ The following technologies were used in the development of this project:
 - **Version Control**: Git, GitHub
 
 ## Features
+
 The platform includes a wide array of features:
 
 - **User Authentication**: Secure login and registration system.
@@ -27,6 +30,7 @@ The platform includes a wide array of features:
 - **Registration Seystem**: Includes registration, secure login, password updates, and password reset functionality..
 
 ## Setup
+
 follow the following steps to run the project.
 
 - Install Node.js from [Node.js](https://nodejs.org/en)
@@ -35,14 +39,6 @@ follow the following steps to run the project.
   - `npm install`
   - `npm run json-server`
   - `npm start`
-
-## Team who Contributed in the project :
-- [Mostafa Youssef](https://github.com/Mostafay65)
-- [Muhamad Ramadan](https://github.com/muhamadd9)
-- [Abdelaziz Elbessa](https://github.com/mrXrobot26)
-- [Khaled Mohamed](https://github.com/3bhafez)
-- [Mohamed Elsayed](https://github.com/Mohamed-Elseglaby)
-
 
 ## ScreenShots From the project:
 
