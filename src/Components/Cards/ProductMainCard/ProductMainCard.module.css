@@ -1,0 +1,141 @@
+.product_card {
+    border: 1px solid #cce7d0;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    transition-duration: 0.3s;
+    height: 100%;
+    overflow: hidden;
+
+}
+.product_card:hover {
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
+
+.product_card:hover .product_image {
+
+    transform: scale(1.1);
+
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    z-index:1;
+}
+
+.product_image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition-duration: 0.4s;
+}
+
+
+.category {
+    font-size: 12px;
+    color: #999;
+}
+
+.product_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+    transition-duration: 0.3s;
+}
+.product_name:hover {
+    color: #088178;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.stars {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.percentage {
+    color: #666;
+    font-size: 14px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.current_price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #088178;
+    margin-right: 8px;
+}
+
+.original_price {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.add_to_cart {
+    background-color: #e0f7fa;
+    color: #00796b;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+.add_to_cart:hover {
+    background-color: #088178;
+    color: #ffffff;
+}
+
+.add_to_cart .pop {
+    position: absolute; 
+    background-color: #00796b;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    width: 180%;
+    padding: 5px 2px;
+    bottom: 0;
+    text-align: center;
+    border-radius: 3px;
+    transition: 0.3s;
+    display: none;
+}
+
+.add_to_cart .pop::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #00796b;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%) rotate(45deg); 
+}
+.add_to_cart:hover .pop{
+    display: block;
+    bottom: 125%;
+}
