@@ -1,41 +1,39 @@
-import React from 'react';
-import styles from './OurTeam.module.css';
-import team1 from '../../assets/About/avatar-1.jpg';
-import team2 from '../../assets/About/avatar-2.jpg';
-import team3 from '../../assets/About/avatar-3.jpg';
-import team4 from '../../assets/About/avatar-4.jpg';
-import team5 from '../../assets/About/avatar-5.jpg';
+import React from "react";
+import team1 from "../../assets/About/avatar-1.jpg";
+import team2 from "../../assets/About/avatar-2.jpg";
+import team3 from "../../assets/About/avatar-3.jpg";
+import team4 from "../../assets/About/avatar-4.jpg";
+import team5 from "../../assets/About/avatar-5.jpg";
 
 const OurTeam = () => {
   let team = [
     {
       name: "Isabella García",
-    job: "Loyal Customer",
-      img: team1
+      job: "Loyal Customer",
+      img: team1,
     },
     {
       name: "Sofía Martínez",
       job: "Loyal Customer",
-      img: team2
+      img: team2,
     },
     {
       name: "Camila Rodríguez",
       job: "Frequent Buyer",
-      img: team3
+      img: team3,
     },
     {
       name: "Valentina López",
       job: "Content Client",
-      img: team4
+      img: team4,
     },
     {
       name: "Lucía Hernández",
       job: "Happy Shopper",
-      img: team5
-    }
+      img: team5,
+    },
   ];
-  
-  
+
   return (
     <>
       <div className="customers">
@@ -43,19 +41,22 @@ const OurTeam = () => {
           <div
             id="carouselExampleIndicatorss"
             className="carousel slide mx-auto text-center position-relative"
-            style={{ width: '60%' }}
+            style={{ width: "60%" }}
           >
             <div className="carousel-inner">
               <div className="title-customers">
                 <h6
                   className="text-uppercase"
-                  style={{ fontSize: '14px', letterSpacing: '1px' }}
+                  style={{ fontSize: "14px", letterSpacing: "1px" }}
                 >
                   Happy Customers
                 </h6>
               </div>
               {team.map((member, index) => (
-                <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
+                <div
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                  key={index}
+                >
                   <div className="customer-image rounded-circle">
                     <img
                       src={member.img}
@@ -67,15 +68,15 @@ const OurTeam = () => {
                     <h4 className="pt-5 text-sec">{member.name}</h4>
                     <span
                       className="text-uppercase fw-semibold"
-                      style={{ fontSize: '12px', color: '#777777' }}
+                      style={{ fontSize: "12px", color: "#777777" }}
                     >
                       {member.job}
                     </span>
                     <p className="px-5 lead fs-6 text-secondary pt-4">
-                      Consectetur adipisicing elit. Perspiciatis aperiam quaerat iure
-                      veritatis fugit debitis, repellat aut accusantium culpa ipsum
-                      ex ipsa blanditiis recusandae, sit similique, eius assumenda
-                      porro pariatur.
+                      Consectetur adipisicing elit. Perspiciatis aperiam quaerat
+                      iure veritatis fugit debitis, repellat aut accusantium
+                      culpa ipsum ex ipsa blanditiis recusandae, sit similique,
+                      eius assumenda porro pariatur.
                     </p>
                   </div>
                 </div>
@@ -87,8 +88,8 @@ const OurTeam = () => {
                   type="button"
                   data-bs-target="#carouselExampleIndicatorss"
                   data-bs-slide-to={index}
-                  className={index === 0 ? 'active' : ''}
-                  aria-current={index === 0 ? 'true' : undefined}
+                  className={index === 0 ? "active" : ""}
+                  aria-current={index === 0 ? "true" : undefined}
                   aria-label={`Slide ${index + 1}`}
                   key={index}
                 ></button>

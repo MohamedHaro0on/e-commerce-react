@@ -12,38 +12,34 @@ import comp3 from "../../assets/About/company-3.jpg";
 import BrandSwiper from "../Home/BrandsSwiper/BrandsSwiper";
 import OurTeam from "../OurTeam/OurTeam";
 
-import Mostafa from "../../assets/About/TeamMembers/Mostafa.jpeg";
-import Ramadan from "../../assets/About/TeamMembers/Ramadan.jpeg";
-import Bessa from "../../assets/About/TeamMembers/Bessa.jpeg";
-import Khaled from "../../assets/About/TeamMembers/Khaled.jpeg";
-import Moshka from "../../assets/About/TeamMembers/Moshka.jpeg";
+import Haroon from "../../assets/About/TeamMembers/Mohamed Ahmed Ali Haroon.jpeg";
 
 const AboutUs = () => {
   let ourTeam = [
     {
-      name: "Mostafa Youssef",
+      name: "Mohamed Ahmed Ali Haroon",
       role: "Full-Stack SWE",
-      image: Mostafa,
+      image: Haroon,
     },
     {
-      name: "Muhamad Ramadan",
+      name: "Mohamed Ahmed Ali Haroon",
       role: "MERN Stack SWE",
-      image: Ramadan,
+      image: Haroon,
     },
     {
-      name: "Abdelaziz Elbessa",
+      name: "Mohamed Ahmed Ali Haroon",
       role: "Full-Stack SWE",
-      image: Bessa,
+      image: Haroon,
     },
     {
-      name: "Khaled Mohamed",
+      name: "Mohamed Ahmed Ali Haroon",
       role: "Full-Stack SWE",
-      image: Khaled,
+      image: Haroon,
     },
     {
-      name: "Mohamed Elsayed",
+      name: "Mohamed Ahmed Ali Haroon",
       role: "Full-Stack SWE",
-      image: Moshka,
+      image: Haroon,
     },
   ];
   let facts = [

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import styles from "./AllUsers.module.css";
 import axios from "axios";
 import Spinner from "../Helpers/Spinner";
 
@@ -8,12 +7,12 @@ const AllUsers = () => {
   const [loading, setLoading] = useState(false);
   const [numOfUsers, setNumOfUsers] = useState(0);
   async function getAllUsers(limit) {
-    setLoading(true)
+    setLoading(true);
     let { data } = await axios.get(
       `https://ecommerce.routemisr.com/api/v1/users?limit=${limit}`
     );
     setUsers(data);
-    setLoading(false)
+    setLoading(false);
   }
   useEffect(() => {
     getAllUsers(15);
@@ -21,7 +20,7 @@ const AllUsers = () => {
   return (
     <>
       <div className="allusers bg-gray py-5 ">
-        {loading&&<Spinner/>}
+        {loading && <Spinner />}
         <div className="container py-5">
           <div className="title mb-3 d-flex justify-content-between">
             <h2>
