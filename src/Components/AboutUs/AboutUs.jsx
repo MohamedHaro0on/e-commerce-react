@@ -21,26 +21,6 @@ const AboutUs = () => {
       role: "Full-Stack SWE",
       image: Haroon,
     },
-    {
-      name: "Mohamed Ahmed Ali Haroon",
-      role: "MERN Stack SWE",
-      image: Haroon,
-    },
-    {
-      name: "Mohamed Ahmed Ali Haroon",
-      role: "Full-Stack SWE",
-      image: Haroon,
-    },
-    {
-      name: "Mohamed Ahmed Ali Haroon",
-      role: "Full-Stack SWE",
-      image: Haroon,
-    },
-    {
-      name: "Mohamed Ahmed Ali Haroon",
-      role: "Full-Stack SWE",
-      image: Haroon,
-    },
   ];
   let facts = [
     {
